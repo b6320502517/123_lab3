@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-	unsigned int k=1,i,;
-	if(n>=1&&n<=1000)
-		scanf("%d",&n);
-	for(i=2;n!=1;i++)
-		for(;n%i==0;){
-			n=n/i;
+	unsigned int k=1,i;
+	if(k>=1&&k<=1000)
+		scanf("%d",&k);
+	for(i=2;k!=1;i++)
+		for(;k%i==0;){
+			k=k/i;
 			printf("%d\n",i);
 		}
 	printf("0");
