@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-	unsigned int i,j,k,x=0,n=1,m;
-	unsigned int y[4];
+	unsigned int i,j,k,x=0,m;
+	unsigned int y[5],n[5][5]={};
 	for(i=0;i<5;i++){
         for(j=0,x=0;j<4;j++){
-        	if(n<6&&n>0)
-            scanf("%d",&n);
-            x=x+n;
+        	if(n[i][j]<=5&&n[i][j]>=0)
+            scanf("%d",&n[i][j]);
+            x=x+n[i][j];
         }
         y[i]= x;
     }
