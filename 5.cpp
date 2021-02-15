@@ -13,7 +13,7 @@ int main(){
 	j--;	
 	l=j;
 	for(i=0;i<j;i++)
-		for(l=j;l>0;l--)
+		for(l=j;l>=0;l--)
 			if(c[i]==c[l])
 				m++;
 		
