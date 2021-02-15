@@ -1,14 +1,14 @@
-#includde<stdio.h>
+#include<stdio.h>
 int main(){
-	int x,i,j,k;
-	int c[4];
-	if(x>0&&x<10000)
-		scanf("%d",&x);
-	k=x;
-	for(i=2;x!=1;i++)
-		for(j=0;x%i==0;j++){
+	int n=1,i,j=0,k;
+	int c[4]={};
+	//if(n>0&&n<10000)
+		scanf("%d",&n);
+	k=n;
+	for(i=2;n!=1;i++)
+		for(;n%i==0;j++){
 			c[j]=i;
-			x=x/i;
+			n=n/i;
 		}
 			
 		
