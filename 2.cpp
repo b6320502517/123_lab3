@@ -5,7 +5,7 @@ int main(){
 	if(n>=1&&n<=10000)
 		scanf("%d",&n);
 	for(i=0;i<n;i++){
-		scanf("%d",&a,&p);
+		scanf("%d %d",&a,&p);
 		t[a-1]+=p;
 	}
 	for(i=0;i<48;i++){
