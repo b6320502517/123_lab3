@@ -14,9 +14,9 @@ int main(){
     for(i=1;i<5;i++){
     	if(k<y[i]){
     		k =y[i];
-    		m=i+1;
+    		m=i;
 		}
 	}
-    printf("%d %d",m,k);
+    printf("%d %d",m+1,k);
     return 0;
 }
