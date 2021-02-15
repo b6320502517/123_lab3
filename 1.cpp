@@ -4,8 +4,9 @@ int main(){
 	unsigned int y[4];
 	for(i=0;i<5;i++){
         for(j=0,x=0;j<4;j++){
+        	if(n<6&&n>0)
             scanf("%d",&n);
-            x= x+n;
+            x=x+n;
         }
         y[i]= x;
     }
